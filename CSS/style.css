@@ -6,14 +6,222 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
 body{
-    background-color: #1D222E;
+   background-color: #1D222E;
     color: #FFFCFE;
     font-family: 'Open Sans', sans-serif;
-
+    
+  height: 100vh;
+  width: 96vw; 
 }
 
 header{
     font-family:'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    
 }
+
+header > img.logo{
+    height:30px;
+    
+}
+
+header > ul{
+    display: flex;
+}
+
+ul > li, a{
+    list-style: none;
+    text-decoration: none;
+    padding-right: 15px;
+    color: #FFFCFE;
+} 
+
+
+
+main{
+    text-align: center;
+    min-width: 450px;
+} 
+
+#bg-curve{
+    background: url(../images/bg-curvy-mobile.svg) no-repeat;
+    background-size: cover;
+    background-position: 67% 33%;
+
+
+}
+
+main > section > img#illustration-intro{
+   width: 90%;
+   padding: 20px;
+}
+
+main > section > h2 {
+    line-height: 40px;
+    margin-top: 20px;
+    font-family:'Raleway', sans-serif;
+   
+}
+main > section > p {
+    padding: 20px;
+    line-height: 25px;
+   
+}
+
+main > section > button{
+    background-color: #4EC3D4;
+    color: #FFFCFE;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.378);
+    margin: 10px;
+}
+
+main > div.card > img{
+  margin-top: 90px;
+}
+
+main > div.card > h2{
+    margin: 15px;
+  }
+
+  main > div.card > P {
+    margin-left: 15px;
+    width: 450px;
+  }
+
+article{
+    margin: 30px;
+
+    
+}
+
+article > h2{
+    font-family:'Raleway', sans-serif;
+    margin: 15px;
+}
+
+article > p{
+    margin: 15px 0px ;
+   
+}
+
+article > a {
+   color: #76d9e8;
+   text-decoration: underline;
+   text-underline-position: under;
+}
+
+div#team-fylo{
+    text-align: left;
+    margin-left: 10px;
+    
+}
+div.card2{   
+    color: #FFFCFE;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.323);
+    width: 430px;
+    padding: 25px;
+   margin-bottom: 25px;
+}
+
+
+div.card2 > div { 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+div.card2 > div >img{
+    border-radius: 50%;
+    width: 50px;
+    margin:10px
+
+}
+
+div#sing-up{
+position: relative;
+top: 163px;
+left: 23px;
+
+width: 400px;
+height: 430px;
+margin: 50px 20px;
+padding: 25px;
+border-radius: 20px;
+background-color: #1D222E;
+box-shadow: 1px 2px 3px black;
+text-align: center;
+}
+
+div#sing-up > div {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 25px;
+
+}
+div#sing-up > div, input, button{
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 30px;
+}
+
+div#sing-up > div > button{
+    background-color: #76d9e8;
+    color: #FFFCFE;
+    font-weight: 700;
+
+}
+footer > div >img#lg{
+    margin-top: 150px; 
+}
+
+footer{
+    background-color: #0f1520;
+}
+
+footer > div {
+    width: 350px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+footer > div > p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+footer > div > p > img{
+    margin-right: 20px;
+}
+
+footer > nav > ul, li{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+footer > p{
+     font-size: 15px;
+     text-align: center;
+}
+
 

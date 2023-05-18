@@ -1,3 +1,5 @@
 # LandingPage-fylo
 
-Criando esse desafio através do site Frontend Mentor, para testar minhas habilidades em Html e CSS.  
+Estou criando essa landing Page para Testar minhas habilidades em Html e CSS. 
+
+Eu escolhi esse desafio através do site Frontend Mentor.  
