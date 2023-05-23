@@ -7,15 +7,11 @@
     box-sizing: border-box;
 }
 
-
-
 body{
-   background-color: #1D222E;
+    background-color: #1B2330;
     color: #FFFCFE;
     font-family: 'Open Sans', sans-serif;
-    
-  height: 100vh;
-  width: 96vw; 
+  
 }
 
 header{
@@ -43,39 +39,36 @@ ul > li, a{
     color: #FFFCFE;
 } 
 
-
-
 main{
+    
     text-align: center;
-    min-width: 450px;
+    max-width: 600px;
+    padding: 20px;
 } 
 
-#bg-curve{
+ section#bg-curve{
+    height: 100vh;
     background: url(../images/bg-curvy-mobile.svg) no-repeat;
-    background-size: cover;
-    background-position: 67% 33%;
+    background-size: 122%;
+    background-position: 45% 63%;
+} 
 
-
-}
-
-main > section > img#illustration-intro{
-   width: 90%;
-   padding: 20px;
-}
-
-main > section > h2 {
-    line-height: 40px;
-    margin-top: 20px;
+section#bg-curve > article#get-St > h1 {
+    margin-bottom: 20px;
     font-family:'Raleway', sans-serif;
-   
-}
-main > section > p {
-    padding: 20px;
-    line-height: 25px;
+    font-size: 1.8em;
+    line-height: 40px;
+    font-weight: 700;
    
 }
 
-main > section > button{
+section#bg-curve > article#get-St  > p {
+    line-height: 25px;
+    font-size: 1.1em;
+    font-weight: 400;
+   
+}
+main > section > article#get-St > button{
     background-color: #4EC3D4;
     color: #FFFCFE;
     font-weight: 700;
@@ -86,142 +79,172 @@ main > section > button{
     border-radius: 20px;
     border: none;
     box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.378);
-    margin: 10px;
+    margin: 25px;
 }
 
-main > div.card > img{
-  margin-top: 90px;
+main > div#itens-card{
+     margin: 25px;
+     text-align: center;
+} 
+
+div#itens-card > div.card{
+    padding: 20px;
+    margin: 20px;
+
 }
 
-main > div.card > h2{
-    margin: 15px;
-  }
-
-  main > div.card > P {
-    margin-left: 15px;
-    width: 450px;
-  }
-
-article{
-    margin: 30px;
-
-    
+div#itens-card > div.card > img{
+    padding: 20px;
+}
+div#itens-card > div.card > h2{
+     margin: 10px;
+     font-family:'Raleway', sans-serif;
 }
 
-article > h2{
-    font-family:'Raleway', sans-serif;
-    margin: 15px;
-}
-
-article > p{
-    margin: 15px 0px ;
+aside {
+    display: block;
+    max-width: 600px;
+    margin: 20px;
    
 }
 
-article > a {
-   color: #76d9e8;
-   text-decoration: underline;
-   text-underline-position: under;
+aside > h2{
+    font-family:'Raleway', sans-serif;
+}
+
+aside > p{
+    margin-top: 25px;
+}
+
+aside > button{
+     display: flex;
+     align-items: center;
+
+     margin-top: 20px;
+    
+     border: 1px solid #4EC3D4;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     background-color: #1B2330;
+}
+
+aside > button > a{
+    font-size: 1.3em;
+    color: #7ddceb; 
+    padding: 10px 0px;
+}
+
+aside > button > img{
+    margin-left: 10px;
 }
 
 div#team-fylo{
-    text-align: left;
-    margin-left: 10px;
-    
+    margin: 200px 66px;
+    max-width: 600px;
 }
-div.card2{   
-    color: #FFFCFE;
-    text-align: left;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.323);
-    width: 430px;
-    padding: 25px;
-   margin-bottom: 25px;
-}
-
-
-div.card2 > div { 
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-div.card2 > div >img{
-    border-radius: 50%;
-    width: 50px;
-    margin:10px
-
-}
-
-div#sing-up{
-position: relative;
-top: 163px;
-left: 23px;
-
-width: 400px;
-height: 430px;
-margin: 50px 20px;
-padding: 25px;
-border-radius: 20px;
-background-color: #1D222E;
-box-shadow: 1px 2px 3px black;
-text-align: center;
-}
-
-div#sing-up > div {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    padding: 25px;
-
-}
-div#sing-up > div, input, button{
-    padding: 20px;
-    border-radius: 50px;
-    border: none;
-    margin-top: 30px;
-}
-
-div#sing-up > div > button{
-    background-color: #76d9e8;
-    color: #FFFCFE;
-    font-weight: 700;
-
-}
-footer > div >img#lg{
-    margin-top: 150px; 
-}
-
-footer{
-    background-color: #0f1520;
-}
-
-footer > div {
-    width: 350px;
-    text-align: center;
+div#team-fylo > div.card2{
+    background-color: #21293c;
     padding: 15px;
-    margin: 15px;
-}
+    border-radius: 5px;
+    max-width: 600px;
+    margin-bottom: 60px;
+} 
 
-footer > div > p{
+div.card2 > p{
     text-align: left;
-    margin-top: 20px;
+    line-height: 30px;
+    font-size: 1em;
+    
 }
 
-footer > div > p > img{
-    margin-right: 20px;
+div.card2 > div {
+   display: flex;
+   align-items: center;
+
+   font-size: .7em;
+   margin-top: 30px;
 }
 
-footer > nav > ul, li{
-    display: flex;
-    flex-direction: column;
+
+div.card2 > div > img{
+    border-radius: 50%;
+    width: 20%;
     margin: 10px;
 }
 
+div#early-access{
+    position: relative;
+    top: -157px;
+    left: 50px;
+    max-width: 400px;
+    height: 402px;
+    padding: 10px;
+    margin: 24px -10px;
 
-footer > p{
-     font-size: 15px;
-     text-align: center;
+    background-color: #1b2330;
+    border: 1px solid black;
+    border-radius: 10px;
+   
 }
 
+div#early-access > h2{
+     padding: 30px;
+     font-weight: 400;
+}
 
+div#early-access > p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+div#early-access > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+div#early-access > div > input{
+    width: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+div#early-access > div > button{
+    width: 350px;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #7ddceb;
+    color:#FFFCFE;
+    font-size: 1em;
+
+}
+
+footer{
+    position: absolute;
+    background-color: #0c1524;
+    margin-top: 25px;
+}
+
+footer > div#info > p{
+    width: 300px;
+    text-align: left;
+   
+    padding-top: 25px;
+    margin: 20px;
+   
+}
+
+footer >nav > ul > li{
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+div#social{
+    font-size: 2em;
+    text-align: center;
+    margin: 20px;
+}
